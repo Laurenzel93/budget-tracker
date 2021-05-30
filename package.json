@@ -1,7 +1,7 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Deployed Link: https://laurenzel93.github.io/budget-tracker/ <br> GitHub Page: https://github.com/Laurenzel93/budget-tracker",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,5 +24,7 @@
     "lite-server": "^2.6.1",
     "mongoose": "^5.12.10",
     "morgan": "^1.10.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
