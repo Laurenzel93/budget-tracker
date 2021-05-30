@@ -17,5 +17,3 @@ WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
 ![Screenshot](assets/budget-tracker1.png)
-![Screenshot](assets/budget-tracker2.png)
-![Screenshot](assets/budget-tracker3.png)
