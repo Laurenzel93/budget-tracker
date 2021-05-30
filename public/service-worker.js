@@ -6,8 +6,8 @@ const FILES_TO_CACHE = [
     "./manifest.webmanifest",
     "./styles.css",
     "./manifest.webmanifest",
-    "./icons/icon-192x192.png",
-    "./icons/icon-512x512.png"
+    "./icons/icon-512x512.png",
+    "./icons/icon-192x192.png"
 ];
 
 const PRECACHE = 'precache-v1';
