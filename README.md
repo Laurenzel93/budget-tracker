@@ -1,6 +1,6 @@
 # budget-tracker
 
-Deployed Link: https://laurenzel93.github.io/budget-tracker/ <br>
+Deployed Link: https://github.com/Laurenzel93/budget-tracker<br>
 GitHub Page: https://github.com/Laurenzel93/budget-tracker
 
 ## User Story

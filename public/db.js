@@ -59,7 +59,7 @@ function checkDatabase() {
 
                         // Clear existing entries because our bulk add was successful
                         currentStore.clear();
-                        console.log('Clearing store');
+                        console.log('Clearing the store');
                     }
                 });
         }
@@ -67,18 +67,20 @@ function checkDatabase() {
 }
 
 request.onsuccess = function (e) {
-    console.log('success');
+    console.log('success!');
     db = e.target.result;
 
     // Check if app is online before reading from db
     if (navigator.onLine) {
-        console.log('Backend is now online!');
+        console.log('Online!');
         checkDatabase();
+    } else {
+        console.log('Offline!');
     }
 };
 
 const saveRecord = (record) => {
-    console.log('Save record invoked');
+    console.log('Your data has been saved!');
     // Create a transaction on the BudgetStore db with readwrite access
     const transaction = db.transaction(['BudgetStore'], 'readwrite');
 
