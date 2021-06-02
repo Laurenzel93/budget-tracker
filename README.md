@@ -1,6 +1,6 @@
 # budget-tracker
 
-Deployed Link: https://github.com/Laurenzel93/budget-tracker<br>
+Deployed Link: https://budget-tracker3393.herokuapp.com/<br>
 GitHub Page: https://github.com/Laurenzel93/budget-tracker
 
 ## User Story
