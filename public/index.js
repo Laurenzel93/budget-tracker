@@ -12,6 +12,9 @@ fetch("/api/transaction")
     populateTotal();
     populateTable();
     populateChart();
+  })
+  .catch(error => {
+    console.log('Error', error)
   });
 
 function populateTotal() {
